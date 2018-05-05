@@ -1,0 +1,345 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Welding Rod DB.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\Welding Rod DB.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_WELDINGRODDB_DIALOG DIALOGEX 0, 0, 335, 428
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Welding Rod DB"
+FONT 10, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "退出",IDOK,267,332,50,14
+    CONTROL         "Q235A(F)",IDC_CHECK_Q235AF,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,15,21,48,12
+    CONTROL         "Q235B,C",IDC_CHECK_Q235BC,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,15,36,46,14
+    CONTROL         "10,20(管)",IDC_CHECK_1020,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,15,52,50,10
+    CONTROL         "20g",IDC_CHECK_20g,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,15,67,28,10
+    CONTROL         "20R",IDC_CHECK_20R,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,15,81,28,10
+    GROUPBOX        "第一部分",IDC_STATIC,7,7,72,91
+    GROUPBOX        "第二部分",IDC_STATIC,97,7,58,95
+    CONTROL         "16Mn",IDC_CHECK_16Mn,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,106,18,48,13
+    CONTROL         "16MnR",IDC_CHECK_16MnR,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,105,32,46,14
+    CONTROL         "15MnVR",IDC_CHECK_15MnVR,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,105,52,50,10
+    CONTROL         "15MnNbR",IDC_CHECK_15MnNbR,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,105,69,43,10
+    CONTROL         "20MnMo",IDC_CHECK_20MnMo,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,105,83,45,10
+    GROUPBOX        "第三部分",IDC_STATIC,170,7,83,95
+    CONTROL         "13MnNiMoNbR",IDC_CHECK_13MnNiMoNbR,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,178,18,59,12
+    CONTROL         "18MnMoNbR",IDC_CHECK_18MnMoNbR,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,178,32,67,14
+    CONTROL         "20MnMoNb",IDC_CHECK_20MnMoNb,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,178,52,50,10
+    CONTROL         "07MnCrMoVR",IDC_CHECK_07MnCrMoVR,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,178,69,54,10
+    GROUPBOX        "第四部分",IDC_STATIC,7,103,81,160
+    CONTROL         "1Cr18Ni9Ti",IDC_CHECK_1Cr18Ni9Ti,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,14,114,60,13
+    CONTROL         "0Cr18Ni9",IDC_CHECK_0Cr18Ni9,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,14,129,46,15
+    CONTROL         "0Cr18Ni10Ti",IDC_CHECK_0Cr18Ni10Ti,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,14,146,64,10
+    CONTROL         "00Cr19Ni10",IDC_CHECK_00Cr19Ni10,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,14,161,64,10
+    CONTROL         "0Cr17Ni12Mo2",IDC_CHECK_0Cr17Ni12Mo2,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,14,175,66,10
+    CONTROL         "0Cr18Ni12Mo2Ti",IDC_CHECK_0Cr18Ni12Mo2Ti,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,13,190,65,15
+    CONTROL         "00Cr17Ni14Mo2",IDC_CHECK_00Cr17Ni14Mo2,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,13,212,64,10
+    CONTROL         "0Cr19Ni13Mo3",IDC_CHECK_0Cr19Ni13Mo3,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,13,227,64,10
+    CONTROL         "00Cr19Ni13Mo3",IDC_CHECK_00Cr19Ni13Mo3,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,13,241,66,10
+    EDITTEXT        IDC_EDIT1_RODTYPE,7,304,59,21,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT1_RODBRAND,70,304,59,21,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT1_STICKTYPE,133,304,59,21,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT1_STICKBRAND,196,304,59,21,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2_RODTYPE,7,328,59,21,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2_RODBRAND,70,328,59,21,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2_STICKTYPE,133,328,59,21,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2_STICKBRAND,196,327,59,21,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3_RODTYPE,7,351,59,21,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3_RODBRAND,70,351,59,21,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3_STICKTYPE,133,352,59,21,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3_STICKBRAND,196,352,59,21,ES_AUTOHSCROLL
+    LTEXT           "焊条型号",IDC_STATIC,7,291,45,10
+    LTEXT           "焊条牌号",IDC_STATIC,74,291,45,10
+    LTEXT           "焊丝",IDC_STATIC,136,290,45,10
+    LTEXT           "焊剂",IDC_STATIC,198,291,45,10
+    GROUPBOX        "第五部分",IDC_STATIC,99,106,81,160
+    CONTROL         "09MnD",IDC_CHECK_09MnD,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,106,113,63,14
+    CONTROL         "09MnNiDR",IDC_CHECK_09MnNiDR,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,106,127,46,13
+    CONTROL         "16MnDR",IDC_CHECK_16MnDR,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,106,149,64,10
+    CONTROL         "15MnNIDR",IDC_CHECK_15MnNIDR,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,106,164,64,10
+    CONTROL         "20MnMoD",IDC_CHECK_20MnMoD,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,106,178,66,10
+    CONTROL         "07MnNiCrMoVDR",IDC_CHECK_07MnNiCrMoVDR,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,105,193,65,15
+    CONTROL         "08MnNiCrMoVD",IDC_CHECK_00Cr17Ni14Mo3,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,105,215,64,10
+    CONTROL         "10Ni3MoVD",IDC_CHECK_10Ni3MoVD,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,105,230,64,10
+    GROUPBOX        "第六部分",IDC_STATIC,188,110,81,160
+    CONTROL         "1Cr5Mo",IDC_CHECK_1Cr5Mo,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,195,118,63,12
+    CONTROL         "0Cr13",IDC_CHECK_0Cr13,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,195,132,46,14
+    CONTROL         "12CrMo(G)",IDC_CHECK_12CrMoG,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,195,153,64,10
+    CONTROL         "15CrMo(G,R)",IDC_CHECK_15CrMoGR,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,195,169,64,10
+    CONTROL         "14Cr1Mo(R)",IDC_CHECK_14Cr1MoR,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,195,182,66,10
+    CONTROL         "12Cr1MoV(G)",IDC_CHECK_12Cr1MoVG,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,194,198,65,15
+    CONTROL         "12Cr2Mo(G)",IDC_CHECK_12Cr2MoG,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,194,219,64,10
+    CONTROL         "12Cr2Mo1(R)",IDC_CHECK_12Cr2Mo1R,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,194,234,64,10
+    LTEXT           "配置文件为db.conf. 请参考其中的内容输入自定的逻辑关系.",
+                    IDC_STATIC,267,7,61,96
+    PUSHBUTTON      "重装DB.CONF",IDC_BUTTON_RELOAD,266,308,50,14
+    EDITTEXT        IDC_EDIT4_RODTYPE,7,375,59,21,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4_RODBRAND,70,375,59,21,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4_STICKTYPE,133,376,59,21,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4_STICKBRAND,196,376,59,21,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT5_RODTYPE,7,400,59,21,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT5_RODBRAND,70,400,59,21,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT5_STICKTYPE,133,400,59,21,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT5_STICKBRAND,196,400,59,21,ES_AUTOHSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_WELDINGRODDB_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 328
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 421
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Welding Rod DB"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "Welding Rod DB Version 1.0",IDC_STATIC,40,10,119,8,
+                    SS_NOPREFIX
+    LTEXT           "Copyright (C) 2011",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "Welding Rod DB MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "Welding Rod DB\0"
+            VALUE "LegalCopyright", "Copyright (C) 2011\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Welding Rod DB.EXE\0"
+            VALUE "ProductName", "Welding Rod DB Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About Welding Rod DB..."
+    IDP_SOCKETS_INIT_FAILED "Windows sockets initialization failed."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\Welding Rod DB.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
